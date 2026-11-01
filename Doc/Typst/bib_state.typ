@@ -1,0 +1,1 @@
+#let bib_state = state("bib", bibliography("./bibliography/ref.bib", title: none))
