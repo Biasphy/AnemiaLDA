@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="800" height="330" font-family="Libertinus Serif, serif">
+  <rect width="800" height="330" fill="#ffffff"/>
+  <!-- Eje temporal -->
+  <line x1="30" y1="165" x2="770" y2="165" stroke="#333" stroke-width="2"/>
+  <polygon points="770,159 782,165 770,171" fill="#333"/>
+
+  <!-- Leyenda -->
+  <g font-size="11" fill="#333">
+    <circle cx="40" cy="316" r="6" fill="#ffffff" stroke="#555" stroke-width="2"/>
+    <text x="52" y="320">Antecedente internacional</text>
+    <circle cx="210" cy="316" r="6" fill="#9a9a9a" stroke="#555" stroke-width="2"/>
+    <text x="222" y="320">Antecedente nacional</text>
+    <circle cx="360" cy="316" r="6" fill="#1f1f1f" stroke="#1f1f1f" stroke-width="2"/>
+    <text x="372" y="320">Presente estudio</text>
+  </g>
+
+  <!-- Hitos: x = 70 + i*108 -->
+  <g font-size="12" fill="#222" text-anchor="middle">
+    <!-- 1. Urrechaga 2013 (arriba, internacional) -->
+    <line x1="70" y1="165" x2="70" y2="105" stroke="#888" stroke-dasharray="3,3"/>
+    <circle cx="70" cy="165" r="8" fill="#ffffff" stroke="#555" stroke-width="2"/>
+    <text x="70" y="52" font-weight="bold" font-size="14">2013</text>
+    <text x="70" y="70">Urrechaga et al.</text>
+    <text x="70" y="85" font-style="italic">AD multivariable</text>
+    <text x="70" y="100">Hemograma · España</text>
+
+    <!-- 2. Velásquez-Hurtado 2016 (abajo, nacional) -->
+    <line x1="178" y1="165" x2="178" y2="215" stroke="#888" stroke-dasharray="3,3"/>
+    <circle cx="178" cy="165" r="8" fill="#9a9a9a" stroke="#555" stroke-width="2"/>
+    <text x="178" y="235" font-weight="bold" font-size="14">2016</text>
+    <text x="178" y="253">Velásquez-Hurtado et al.</text>
+    <text x="178" y="268" font-style="italic">Regresión logística</text>
+    <text x="178" y="283">ENDES 2007–2013 · Perú</text>
+
+    <!-- 3. Khan 2019 (arriba, internacional) -->
+    <line x1="286" y1="165" x2="286" y2="105" stroke="#888" stroke-dasharray="3,3"/>
+    <circle cx="286" cy="165" r="8" fill="#ffffff" stroke="#555" stroke-width="2"/>
+    <text x="286" y="52" font-weight="bold" font-size="14">2019</text>
+    <text x="286" y="70">Khan et al.</text>
+    <text x="286" y="85" font-style="italic">LDA, CART, k-NN, SVM, RF</text>
+    <text x="286" y="100">DHS 2011 · Bangladés</text>
+
+    <!-- 4. Kassaw 2023 (abajo, internacional) -->
+    <line x1="394" y1="165" x2="394" y2="215" stroke="#888" stroke-dasharray="3,3"/>
+    <circle cx="394" cy="165" r="8" fill="#ffffff" stroke="#555" stroke-width="2"/>
+    <text x="394" y="235" font-weight="bold" font-size="14">2023</text>
+    <text x="394" y="253">Kebede Kassaw et al.</text>
+    <text x="394" y="268" font-style="italic">Boruta (bosque aleatorio)</text>
+    <text x="394" y="283">EDHS 2016 · Etiopía</text>
+
+    <!-- 5. Marcos Valdez 2023 (arriba, nacional) -->
+    <line x1="502" y1="165" x2="502" y2="105" stroke="#888" stroke-dasharray="3,3"/>
+    <circle cx="502" cy="165" r="8" fill="#9a9a9a" stroke="#555" stroke-width="2"/>
+    <text x="502" y="52" font-weight="bold" font-size="14">2023</text>
+    <text x="502" y="70">Marcos Valdez et al.</text>
+    <text x="502" y="85" font-style="italic">Naive Bayes, RF, DT, k-NN</text>
+    <text x="502" y="100">Datos abiertos · Lima</text>
+
+    <!-- 6. Quispe y Teccsi 2025 (abajo, nacional) -->
+    <line x1="610" y1="165" x2="610" y2="215" stroke="#888" stroke-dasharray="3,3"/>
+    <circle cx="610" cy="165" r="8" fill="#9a9a9a" stroke="#555" stroke-width="2"/>
+    <text x="610" y="235" font-weight="bold" font-size="14">2025</text>
+    <text x="610" y="253">Quispe y Teccsi</text>
+    <text x="610" y="268" font-style="italic">Reg. logística regularizada</text>
+    <text x="610" y="283">ENDES 2022–2024 · Perú</text>
+
+    <!-- 7. Presente estudio 2026 (arriba) -->
+    <line x1="718" y1="165" x2="718" y2="105" stroke="#1f1f1f" stroke-dasharray="3,3"/>
+    <circle cx="718" cy="165" r="9" fill="#1f1f1f" stroke="#1f1f1f" stroke-width="2"/>
+    <text x="718" y="52" font-weight="bold" font-size="14">2026</text>
+    <text x="718" y="70" font-weight="bold">Presente estudio</text>
+    <text x="718" y="85" font-style="italic">LDA</text>
+    <text x="718" y="100">ENDES 2025 · Perú</text>
+  </g>
+</svg>
