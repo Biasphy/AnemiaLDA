@@ -9,7 +9,7 @@
 
 
 #let doc-title = [
-  Discriminación y Clasificación de Estados Anémicos a partir de Biometría Hemática mediante Análisis Discriminante Lineal (LDA) en Ayacucho, 2026.
+  Clasificación de Estados Anémicos mediante Análisis Discriminante Lineal (LDA) a partir de Parámetros Hematológicos de pacientes del Hospital Regional de Ayacucho, 2026.
 ]
 #show: versatile-apa.with(
   title: doc-title,
@@ -38,6 +38,8 @@
           #text(size: 13pt, weight: "bold")[FACULTAD DE INGENIERÍA DE MINAS, GEOLOGÍA Y CIVIL] \
           #v(0.4em)
           #text(size: 12pt, weight: "bold")[ESCUELA PROFESIONAL DE INGENIERÍA DE SISTEMAS]
+          // Logo disponible en assets/img/stella/logo_unsch.png (extraído de "IA. Proy. Final.pdf").
+          // Para usarlo: #image("assets/img/stella/logo_unsch.png", height: 4cm)
         ]
       ],
     ),
