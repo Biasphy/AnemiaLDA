@@ -6,18 +6,12 @@
 
 === Problema General
 
-¿En qué medida la aplicación del algoritmo de Análisis Discriminante Lineal (LDA) permite discriminar y clasificar los estados anémicos a partir de parámetros hematológicos de pacientes del Hospital Regional de Ayacucho, 2026, considerando la presencia, morfología y severidad de la anemia, en comparación con los criterios clínicos de referencia establecidos por la OMS y el MINSA?
+¿En qué medida un modelo predictivo basado en el Análisis Discriminante Lineal (LDA) permite clasificar a los niños de 6 a 59 meses del departamento de Ayacucho según la presencia o ausencia de anemia, a partir de factores sociales y biológicos registrados en la Encuesta Demográfica y de Salud Familiar (ENDES) 2025?
 
 === Problemas Específicos
 
-#par(first-line-indent: 0em)[
-  *PE1.* ¿Con qué nivel de precisión, sensibilidad y especificidad el algoritmo de Análisis Discriminante Lineal (LDA) permite realizar la clasificación dicotómica de los pacientes, diferenciando entre presencia y ausencia de anemia a partir de sus parámetros hematológicos?
-]
++ ¿Cuáles son las características de los factores sociales, sea el nivel educativo de la madre, área de residencia, índice de riqueza del hogar y acceso a servicios básicos, y biológicos, como la edad y sexo del niño, estado nutricional antropométrico, anemia materna y altitud de residencia, de los niños de 6 a 59 meses de Ayacucho, y cuáles de ellos presentan diferencias significativas entre los grupos con y sin anemia?
 
-#par(first-line-indent: 0em)[
-  *PE2.* ¿En qué medida el algoritmo de Análisis Discriminante Lineal (LDA) permite discriminar y clasificar morfológicamente los estados anémicos en microcíticos, normocíticos y macrocíticos, utilizando los índices eritrocitarios obtenidos mediante biometría hemática?
-]
++ ¿Qué función discriminante lineal logra separar mejor a los niños con y sin anemia, en qué medida se cumplen los supuestos del modelo, como lo son la normalidad multivariante, homogeneidad de matrices de covarianza y ausencia de multicolinealidad, y cuál es el aporte relativo de cada factor a la discriminación?
 
-#par(first-line-indent: 0em)[
-  *PE3.* ¿Con qué nivel de precisión el algoritmo de Análisis Discriminante Lineal (LDA) permite clasificar la severidad de la anemia en leve, moderada y severa, considerando los parámetros hematológicos y los criterios de referencia establecidos por la OMS y el MINSA?
-]
++ ¿Cuál es la capacidad predictiva y de generalización del modelo de Análisis Discriminante Lineal, medida mediante la matriz de confusión, la exactitud, la sensibilidad, la especificidad, el área bajo la curva ROC (AUC) y la validación cruzada?

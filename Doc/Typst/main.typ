@@ -9,7 +9,7 @@
 
 
 #let doc-title = [
-  Clasificación de Estados Anémicos mediante Análisis Discriminante Lineal (LDA) a partir de Parámetros Hematológicos de pacientes del Hospital Regional de Ayacucho, 2026.
+  Análisis Discriminante Lineal para la identificación temprana de riesgo de anemia infantil utilizando microdatos de la ENDES en Ayacucho, 2026
 ]
 #show: versatile-apa.with(
   title: doc-title,
@@ -163,6 +163,7 @@
 }
 
 
+#pagebreak()
 = CAPÍTULO I: ASPECTOS GENERALES DE LA INVESTIGACIÓN
 
 #include "sections/Cap1/01PlanteamientoProb.typ"

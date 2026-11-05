@@ -4,4 +4,4 @@
 
 == Objetivo General
 
-Desarrollar y evaluar un sistema basado en el algoritmo de Análisis Discriminante Lineal (LDA) para discriminar y clasificar los estados anémicos a partir de parámetros hematológicos de pacientes del Hospital Regional de Ayacucho, 2026, considerando la presencia, morfología y severidad de la anemia, mediante la comparación de sus resultados con los criterios clínicos de referencia establecidos por la OMS y el MINSA.
+Desarrollar un modelo predictivo basado en el Análisis Discriminante Lineal (LDA) que permita clasificar a los niños de 6 a 59 meses del departamento de Ayacucho según la presencia o ausencia de anemia, a partir de factores sociales y biológicos registrados en la Encuesta Demográfica y de Salud Familiar (ENDES) 2025.

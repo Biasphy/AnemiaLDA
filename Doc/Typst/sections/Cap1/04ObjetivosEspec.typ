@@ -4,14 +4,8 @@
 
 == Objetivos Específicos
 
-#par(first-line-indent: 0em)[
-  *OE1.* Implementar y evaluar el algoritmo de Análisis Discriminante Lineal (LDA) para la clasificación dicotómica de pacientes con y sin anemia, utilizando parámetros hematológicos y determinando su precisión, sensibilidad y especificidad.
-]
++ Caracterizar los factores sociales (nivel educativo de la madre, área de residencia, índice de riqueza del hogar y acceso a servicios básicos) y biológicos (edad y sexo del niño, estado nutricional antropométrico, anemia materna y altitud de residencia) de los niños de 6 a 59 meses de Ayacucho, mediante la integración de los módulos RECH6, RECH5 y REC44 de la ENDES 2025, e identificar aquellos que presentan diferencias significativas entre los grupos con y sin anemia.
 
-#par(first-line-indent: 0em)[
-  *OE2.* Aplicar el algoritmo de Análisis Discriminante Lineal (LDA) para discriminar y clasificar morfológicamente los estados anémicos en microcíticos, normocíticos y macrocíticos, a partir de los índices eritrocitarios obtenidos mediante biometría hemática, evaluando su desempeño frente a los criterios clínicos de referencia.
-]
++ Estimar la función discriminante lineal que mejor separe a los niños con y sin anemia, verificando previamente los supuestos del modelo (normalidad multivariante, homogeneidad de matrices de covarianza mediante la prueba M de Box y ausencia de multicolinealidad) y determinando el aporte relativo de cada factor a través de los coeficientes discriminantes estandarizados.
 
-#par(first-line-indent: 0em)[
-  *OE3.* Implementar y evaluar el algoritmo de Análisis Discriminante Lineal (LDA) para clasificar la severidad de la anemia en leve, moderada y severa, considerando los parámetros hematológicos y los criterios establecidos por la OMS y el MINSA, mediante métricas de desempeño del modelo.
-]
++ Evaluar la capacidad predictiva del modelo de Análisis Discriminante Lineal mediante la matriz de confusión, la exactitud, la sensibilidad, la especificidad y el área bajo la curva ROC (AUC), aplicando validación cruzada para comprobar su capacidad de generalización.
