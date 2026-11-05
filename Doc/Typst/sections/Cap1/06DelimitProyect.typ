@@ -10,7 +10,7 @@ La investigación se desarrolla en el departamento de Ayacucho, abarcando la inf
 
 === Delimitación Temporal
 
-El estudio se ejecutará durante el periodo 2026, utilizando para la construcción, entrenamiento y evaluación del modelo predictivo los microdatos oficiales de la Encuesta Demográfica y de Salud Familiar (ENDES 2025) del Instituto Nacional de Estadística e Informática (INEI). 
+El estudio se ejecutará durante el periodo 2026, utilizando para la construcción, entrenamiento y evaluación del modelo predictivo los microdatos oficiales de la Encuesta Demográfica y de Salud Familiar (ENDES 2025) del @inei2024endes. 
 
 === Delimitación Poblacional 
 
